@@ -1,0 +1,26 @@
+{
+  "name": "aws-serverless-express-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "aws-serverless-express": "^3.0.2",
+    "express": "^4.16.2",
+    "express-mongo-db": "^2.0.3",
+    "mongodb": "^2.2.33"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janitha/aws-serverless-express-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janitha/aws-serverless-express-example/issues"
+  },
+  "homepage": "https://github.com/janitha/aws-serverless-express-example#readme"
+}
