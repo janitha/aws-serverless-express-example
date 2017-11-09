@@ -9,9 +9,13 @@
     "express-mongo-db": "^2.0.3",
     "mongodb": "^2.2.33"
   },
+  "config" : {
+      "lambda-name" : "firstlambda2-lambda"
+  },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "lambda-deploy" : "zip -r -X /tmp/lambda.zip . && aws lambda update-function-code --function-name $npm_package_config_lambda_name --zip-file fileb:///tmp/lambda.zip --publish"
   },
   "repository": {
     "type": "git",
